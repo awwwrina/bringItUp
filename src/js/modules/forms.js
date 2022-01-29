@@ -47,7 +47,7 @@ export default class  Form {
             let matrix = '+1 (___) ___-____',
                 i = 0,
                 def = matrix.replace(/\D/g, ''),
-                value =this.value.replace(/\D/g, '');
+                value = this.value.replace(/\D/g, '');
         
             if (def.length >= value.length) {
                 value = def;
